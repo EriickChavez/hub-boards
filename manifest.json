@@ -1,0 +1,21 @@
+{
+  "id": "com.nexabook.modulo-pro",
+  "name": "Módulo Profesional",
+  "version": "1.0.0",
+  "author": "Erick Chávez",
+  "description": "Módulo de alto rendimiento con widgets y pantallas integradas.",
+  "entryPoint": "https://eriickchavez.github.io/nexabook-modulo-pro/bundle.js?nocache=00002",
+  "exports": {
+    "screen": {
+      "component": "MonitorScreen",
+      "label": "Dashboard Principal",
+      "icon": "LayoutDashboard"
+    },
+    "widget": {
+      "component": "MonitorWidget",
+      "label": "Resumen Rápido",
+      "size": "small"
+    }
+  },
+  "permissions": ["storage.local", "network.api"]
+}
