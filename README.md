@@ -111,7 +111,7 @@ export default defineConfig({
 Para activar el módulo en Nexabook Hub, ve a **Settings** e ingresa la URL del manifiesto:
 
 ```
-https://eriickchavez.github.io/nexabook-modulo-pro/manifest.json
+https://eriickchavez.github.io/hub-boards/manifest.json
 ```
 
 El Hub cargará el manifiesto, descargará el `bundle.js` y registrará los componentes `screen` y `widget` automáticamente.
@@ -149,7 +149,7 @@ Push a main
 ```
 
 GitHub Pages sirve el contenido de la rama `gh-pages` en:
-`https://eriickchavez.github.io/nexabook-modulo-pro/`
+`https://eriickchavez.github.io/hub-boards/`
 
 > ⚠️ **No hagas commits directamente a la rama `gh-pages`**. Es una rama administrada por el workflow y se sobrescribe en cada despliegue.
 

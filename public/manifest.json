@@ -4,10 +4,10 @@
   "version": "1.0.0",
   "author": "Erick Chávez",
   "description": "Módulo de alto rendimiento con widgets y pantallas integradas.",
-  "entryPoint": "https://eriickchavez.github.io/nexabook-modulo-pro/bundle.js?nocache=00002",
+  "entryPoint": "https://eriickchavez.github.io/hub-boards/bundle.js?nocache=00002",
   "exports": {
     "screen": {
-      "component": "MonitorScreen",
+      "component": "HubBoardScreen",
       "label": "Dashboard Principal",
       "icon": "LayoutDashboard"
     },

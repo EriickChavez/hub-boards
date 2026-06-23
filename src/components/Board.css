@@ -1,0 +1,26 @@
+.hub-board-slider-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px 40px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  align-items: flex-start;
+  -webkit-overflow-scrolling: touch;
+  flex-grow: 1;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .hub-board-slider-container {
+    scroll-snap-type: x mandatory;
+    padding: 16px;
+    gap: 16px;
+  }
+  
+  .hub-board-column {
+    scroll-snap-align: center;
+    min-width: 85vw;
+    max-width: 85vw;
+    height: calc(100vh - 260px) !important;
+  }
+}
