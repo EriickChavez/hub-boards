@@ -4,16 +4,16 @@
   "version": "1.0.0",
   "author": "Erick Chávez",
   "description": "Módulo de alto rendimiento con widgets y pantallas integradas.",
-  "entryPoint": "https://eriickchavez.github.io/hub-boards/bundle.js?nocache=00002",
+  "entryPoint": "https://eriickchavez.github.io/hub-boards/bundle.js?nocache=00001",
   "exports": {
     "screen": {
-      "component": "HubBoardScreen",
-      "label": "Dashboard Principal",
+      "component": "BoardScreen",
+      "label": "Board",
       "icon": "LayoutDashboard"
     },
     "widget": {
-      "component": "MonitorWidget",
-      "label": "Resumen Rápido",
+      "component": "BoardWidget",
+      "label": "Monitor",
       "size": "small"
     }
   },
