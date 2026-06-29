@@ -1,4 +1,4 @@
-name: Deploy Nexabook Module
+name: Deploy Hub Boards
 on:
   push:
     branches:
